@@ -14,5 +14,14 @@ int main() {
     printf("a = %d, b = %d\n", a, b);
     printf("Ten cua ban la: %s\n", ten);
 
+     // Thực hiện phép cộng và trừ
+    int tong = a + b;
+    int hieu = a - b;
+
+    printf("Tong a + b = %d\n", tong);
+    printf("Hieu a - b = %d\n", hieu);
+
+
+
     return 0;
 }
